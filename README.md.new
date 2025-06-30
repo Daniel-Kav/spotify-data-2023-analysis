@@ -1,0 +1,133 @@
+# Spotify Music Analysis - 2023 
+
+<p align="center">  
+	<a href="https://open.spotify.com/">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.YQg9PUaYHoYCyG2SqFWSwwHaDt%26pid%3DApi&f=1&ipt=d62add352227128017bbc009d68f3ca869e386ae81a22badab1b028fa5cba1d3&ipo=images" width="300"> 
+    </a>
+    <h2>Comprehensive Data Analysis of Top Spotify Songs 2023</h2>
+</p>
+
+## Key Capabilities Demonstrated
+
+### 🧹 Data Cleaning & Preprocessing
+- Handled missing values and data inconsistencies
+- Standardized data formats across multiple platforms
+- Processed and transformed raw data for analysis
+- Validated data integrity and quality
+
+### 🔍 Exploratory Data Analysis (EDA)
+- Performed comprehensive data exploration
+- Identified patterns and trends in music features
+- Analyzed distributions of key metrics
+- Conducted cross-platform comparisons
+
+### 📊 Data Visualization
+- Created visual representations of data insights
+- Generated charts for trends and distributions
+- Visualized correlations between variables
+- Produced comparative analyses across platforms
+
+### 📈 Statistical Analysis
+- Performed descriptive and inferential statistics
+- Calculated correlations between variables
+- Conducted hypothesis testing
+- Analyzed statistical significance of findings
+
+## Project Structure
+
+```
+spotify-data-2023-analysis/
+├── dataset/
+│   └── spotify-2023.csv       # Raw dataset
+├── scripts/
+│   ├── 01_general_song_information.sql      # Basic song and artist analysis
+│   ├── 02_spotify_metrics.sql               # Spotify-specific metrics
+│   ├── 03_apple_music_metrics.sql           # Apple Music analysis
+│   ├── 04_deezer_metrics.sql                # Deezer platform analysis
+│   ├── 05_shazam_metrics.sql                # Shazam metrics and trends
+│   ├── 06_audio_features.sql                # Audio characteristics analysis
+│   ├── 07_artist_impact.sql                 # Artist collaboration impact
+│   ├── 08_temporal_trends.sql               # Time-based analysis
+│   ├── 09_cross_platform_presence.sql       # Cross-platform comparison
+│   ├── 10_correlation_analysis.sql          # Relationships between metrics
+│   ├── 11_popularity_analysis.sql           # What makes songs popular
+│   └── 12_miscellaneous.sql                 # Additional analyses
+├── insights.md               # Key findings and insights
+├── questions.md              # Research questions
+├── schema.sql                # Database schema
+└── README.md                 # This file
+```
+
+## Detailed Capabilities
+
+### Data Cleaning & Preprocessing
+- **Handled Missing Values**: Implemented SQL queries to identify and handle missing data points
+- **Data Type Conversion**: Ensured proper data types for all fields
+- **Data Validation**: Verified data consistency across different metrics
+- **Normalization**: Standardized data formats for cross-platform comparison
+
+### Exploratory Data Analysis (EDA)
+- **Descriptive Statistics**: Calculated measures of central tendency and dispersion
+- **Distribution Analysis**: Examined the spread of key variables
+- **Pattern Recognition**: Identified trends in music features over time
+- **Outlier Detection**: Identified and analyzed anomalies in the data
+
+### Data Visualization
+- **Trend Analysis**: Visualized how music features change over time
+- **Comparative Charts**: Created visual comparisons between platforms
+- **Correlation Matrices**: Illustrated relationships between different audio features
+- **Distribution Plots**: Showed the spread of key metrics
+
+### Statistical Analysis
+- **Hypothesis Testing**: Tested assumptions about music trends
+- **Correlation Analysis**: Measured relationships between variables
+- **ANOVA Testing**: Compared means across different categories
+- **Regression Analysis**: Modeled relationships between song features and popularity
+
+## Key Findings
+
+1. **Platform Performance**:
+   - Comparison of song performance across Spotify, Apple Music, and Deezer
+   - Analysis of playlist inclusion and chart performance
+
+2. **Audio Feature Analysis**:
+   - Distribution of BPM, danceability, energy, and other audio features
+   - Correlation between different audio characteristics
+
+3. **Temporal Trends**:
+   - How music features have evolved over time
+   - Seasonal patterns in music releases and popularity
+
+4. **Artist Impact**:
+   - Effect of artist collaborations on song success
+   - Analysis of top-performing artists and their characteristics
+
+## Getting Started
+
+### Prerequisites
+- MySQL or compatible SQL database
+- The dataset file: `dataset/spotify-2023.csv`
+
+### Setup
+1. Create the database and import the data:
+   ```sql
+   mysql -u username -p < schema.sql
+   ```
+2. Import the CSV data into your database
+3. Run the SQL scripts in the `scripts/` directory
+
+## Usage
+
+Each script in the `scripts/` directory demonstrates different analytical capabilities:
+
+- **Basic Analysis**: `01_general_song_information.sql`
+- **Platform-Specific Analysis**: `02_spotify_metrics.sql`, `03_apple_music_metrics.sql`, `04_deezer_metrics.sql`
+- **Advanced Analytics**: `10_correlation_analysis.sql`, `11_popularity_analysis.sql`
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

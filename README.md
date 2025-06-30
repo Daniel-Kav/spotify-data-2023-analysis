@@ -235,6 +235,6 @@ If you find any issues with existing questions or their solutions, please `creat
 
 ## Support
 
-If you have any doubts, queries or, suggestions then, please connect with me on [LinkedIn](https://www.linkedin.com/in/faizanxmulla/).
+If you have any doubts, queries or, suggestions then, please connect with me on [LinkedIn](https://www.linkedin.com/in/daniel-kavatha-067b40231/).
 
 Do ⭐ the repository, if it inspired you, gave you ideas of your own or helped you in any way !!
