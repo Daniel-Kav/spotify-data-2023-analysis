@@ -38,3 +38,8 @@ FROM spotify_data
 WHERE duration_ms > 0
 ORDER BY duration_ms ASC
 LIMIT 1;
+
+-- 6. What is the average tempo of songs released in 2023?
+SELECT AVG(tempo) AS avg_tempo
+FROM spotify_data
+WHERE released_year = 2023;
